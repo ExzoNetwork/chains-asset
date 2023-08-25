@@ -94,7 +94,7 @@ export class Token implements IToken {
     };
 
     const pattern =
-      /https:\/\/raw\.githubusercontent\.com\/block-wallet\/assets\/master\/blockchains\/[a-zA-Z]+\/assets\/0x[a-fA-F0-9]{40}\/logo\.png/gm;
+      /https:\/\/raw\.githubusercontent\.com\/exzonetwork\/assets\/master\/blockchains\/[a-zA-Z]+\/assets\/0x[a-fA-F0-9]{40}\/logo\.png/gm;
     if (pattern.test(this.logo)) {
       json['l'] = undefined;
     } else {
