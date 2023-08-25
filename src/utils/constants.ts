@@ -25,6 +25,8 @@ export const COINGECKO_ASSET_PLATFORMS_URL =
 export const ASSETS_BLOCKCHAINS_CHAIN_ID: { [key in number]: string } = {
   592: 'astar',
   336: 'astar',
+  1229: 'exzonetwork',
+  2370: 'exzotestnet',
   42161: 'arbitrum',
   200: 'arbitrum',
   421611: 'arbitrum',
@@ -198,6 +200,8 @@ export const NETWORKS: { [key in string]: number } = {
   callisto: 820,
   celo: 42220,
   classic: 61,
+  exzonetwork: 1229,
+  exzotestnet: 2370,
   ellaism: 64,
   eos: 59,
   'ether-1': 1313114,
