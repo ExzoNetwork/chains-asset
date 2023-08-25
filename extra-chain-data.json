@@ -6,6 +6,23 @@
     ],
     "scanApi": "https://api.etherscan.io"
   },
+  "1229": {
+    "rpc": [
+      "https://evm.exzo.network",
+      "https://evm.exzo.network"
+    ],
+    "scanApi": "https://evm.exzoscan.io/api",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/ExzoNetwork/assets-wallet/master/blockchains/exzonetwork/info/logo.png"
+  },
+  "2370": {
+    "rpc": [
+      "https://evm-test.exzo.network",
+      "https://evm-test.exzo.network"
+    ],
+    "scanApi": "https://evm-testnet.exzoscan.io/api",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/ExzoNetwork/assets-wallet/master/blockchains/exzonetwork/info/logo.png",
+    "isTestnet": true
+  },
   "3": {
     "scanApi": "https://api-ropsten.etherscan.io",
     "isTestnet": true
